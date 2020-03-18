@@ -1,0 +1,18 @@
+{
+  "profiles": {
+    "NetCoreGrpc.ReverseProxyLoadBalancer.AspNetCoreServerApp": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      //"applicationUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://*:5000"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "publishAllPorts": true
+    }
+  }
+}

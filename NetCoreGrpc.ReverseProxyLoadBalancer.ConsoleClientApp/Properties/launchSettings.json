@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NetCoreGrpc.ReverseProxyLoadBalancer.ConsoleClientApp": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
